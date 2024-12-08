@@ -12,6 +12,9 @@ body{
 .banner-text{
     max-width: 425px;
 }
+.form-control{
+    width:30%
+}
 .resources-banner{
     height: 100%;
     background-image: linear-gradient(rgba(255, 255, 255, 0.25),
