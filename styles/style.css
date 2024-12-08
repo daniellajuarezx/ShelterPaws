@@ -1,0 +1,25 @@
+body{
+    background-color: #dfffdf;
+}
+.main-banner{
+    height: 100%;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.25),
+     rgba(255, 255, 255, 0.25)),
+        url(../images/Fetch.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.banner-text{
+    max-width: 425px;
+}
+.resources-banner{
+    height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25),
+     rgba(255, 255, 255, 0.25)),
+        url(../images/puppy-eyes.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.articles-container{
+    background-color: rgb(231, 231, 231);
+}
