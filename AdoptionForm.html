@@ -1,0 +1,129 @@
+<html>
+    <header>
+        <title>Adoption Form</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="./Styles/style.css">
+    </head>
+    <body>
+        <header class="container-fluid">
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="./ShelterPaws.html">Shelter Paws</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Our Animals</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./AdoptionForm.html">ADOPT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Resources
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Pet Wellness</a></li>
+                          <li><a class="dropdown-item" href="./BehaviorResources.html">Behavior Resources</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main>
+            <h1 class="text-center">Adoption Form</h1>
+            <form action="">
+              <h4 class="container">Future Owner Information</h4>
+                <div class="container d-flex align-items-center px-5 mb-2">
+                <label for="fname" class="form-label mb-0 col-auto">First Name:</label>
+                <input type="text" class="form-control ms-4" id="fname" required>
+                </div>
+                <div class="container d-flex align-items-center px-5 mb-2">
+                <label for="mname" class="form-label mb-0 col-auto">Middle Name:</label>
+                <input type="text" class="form-control ms-2" id="mname">
+                </div>
+                <div class="container d-flex align-items-center px-5 mb-2">
+                <label for="lname" class="form-label mb-0 col-auto">Last Name:</label>
+                <input type="text" class="form-control ms-4" id="lname" required>
+                </div>
+                <div class="container d-flex align-items-center px-5 mb-2">
+                <label for="SAddress" class="form-label mb-0 col-auto">Street Address:</label>
+                <input type="text" class="form-control ms-2" id="SAddress" required>
+                </div>
+                <div class="container d-flex align-items-center px-5 mb-2">
+                <label for="city" class="form-label mb-0 col-auto">City:</label>
+                <input type="text" class="form-control ps-3 ms-5" id="city">
+                </div>
+                <div class="container d-flex align-items-center px-5 mb-2">
+                <label for="inputState" class="form-label">State:</label>
+                <select id="inputState" class="form-select ms-5">
+                  <option selected>select state</option>
+                  <option value="1">Texas</option>
+                  <option value="2">Arizona</option>
+                  <option value="3">California</option>
+                </select>
+                </div>
+                <div class="container d-flex align-items-center px-5 mb-2">
+                <div class="pe-2">Do you live in:</div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="housing" value="home">
+                  <label class="form-check-label" for="housing">Home</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="housing" value="Apartment">
+                  <label class="form-check-label" for="housing">Apartment</label>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="housing" value="mobile-home">
+                    <label class="form-check-label" for="housing">Mobile Home</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="housing" value="">
+                    <label class="form-check-label" for="housing">Live with Parents</label>
+                  </div>
+                </div>
+                </div>
+              <h4 class="container">Pet Information</h4>
+                <div class="container align-items-center px-5 mb-2">
+                  <div>Pet Type:</div>
+                  <div class="mb-2 ps-5 form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="pettype" value="cat">
+                    <label class="form-check-label" for="cat">Cat</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="pettype" value="dog">
+                    <label class="form-check-label" for="dog">Dog</label>
+                </div>
+                <div>
+                  <div>Pet Gender Preference:</div>
+                  <div class="mb-2 ps-5 form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="petgender" value="male">
+                    <label class="form-check-label" for="gender">Male</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="petgender" value="female">
+                    <label class="form-check-label" for="gender">Female</label>
+                </div>
+                <div class="align-items-center">
+                  <div class="mb-3">
+                    <label for="text" class="form-label">What made you decide you wanted to adopt a pet and how long have you been looking?</label>
+                    <textarea class="form-control ms-4" id="text" rows="3"></textarea>
+                  </div>
+                </div>
+            </form>
+            <div class="container d-flex align-items-center">
+              <button type="button" class="btn btn-primary">Let's Go!</button>
+              <div class="card w-25 ms-3 p-0 text-center">
+                <p">Not sure if you are ready to adopt yet? Come by to one of our many <a href="#">events</a> to meet our furr-endly crew!</p>
+              </div>
+            </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </Body>
+</html>
